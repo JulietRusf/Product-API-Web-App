@@ -69,4 +69,4 @@ function handleError(error) {
 
 // Call both functions
 fetchProductsThen();
-fetchProductsAsync();
+
