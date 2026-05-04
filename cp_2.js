@@ -67,6 +67,10 @@ function handleError(error) {
   console.log(`An error occurred: ${error.message}`);
 }
 
-// Call both functions
+// Demonstrating both promise-based and async/await approaches
+
+// Promise-based version (logs to console)
 fetchProductsThen();
 
+// Async/await version (displays products on page)
+fetchProductsAsync();
